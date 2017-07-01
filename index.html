@@ -1,0 +1,212 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Gabriela Cotosck - UX Design Portfolio</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--<link rel="stylesheet" href="main.css">-->
+
+        <!--External Styles -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/f770641e6d.js"></script>
+
+        <!-- Internal Styles-->
+        <style>
+            body {
+                padding-top: 4rem;
+            }
+
+            nav {
+                text-transform: uppercase;
+            }
+
+
+
+            .navbar-brand {
+                width: 8rem;
+                white-space: normal;
+                line-height: 1.25rem;
+            }
+
+            .navbar-nav .navbar-item {
+                padding-right: 4rem;
+            }
+
+            #aboutPhoto {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+            #aboutBody {
+                margin-top: 1rem;
+            }
+
+            #portfolio {
+                background-color: #fff;
+            }
+
+            #portfolio img {
+                width: 100%;
+            }
+
+            .card {
+                margin-bottom: 2rem;
+            }
+
+            .jumbotron {
+                margin-bottom: 0;
+            }
+
+            .jumbotron-heading {
+                margin-bottom: 2rem;
+            }
+
+            .btn-social {
+                height: 3rem;
+                width: 3rem;
+                padding-top: .8rem;
+            }
+
+            .fa-free-code-camp {
+                margin-left: -.2rem;
+            }
+
+            /* // Medium devices (tablets, 768px and up)*/
+            @media (min-width: 768px) {
+                .navbar-brand {
+                    padding-left: 3rem;
+                }
+            }
+
+            /* Small devices (landscape phones, less than 768px)*/
+            @media (max-width: 767px) {
+                .navbar .navbar-item {
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+
+        </style>
+
+	</head>
+
+	<body>
+       <nav class="navbar fixed-top navbar-toggleable-sm navbar-inverse bg-inverse">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <a class="navbar-brand" href="index.html">Gabriela Cotosck</a>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="active navbar-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+           </div>
+        </nav>
+
+        <section class="jumbotron" id="about">
+            <div class="container">
+                <h1 class="jumbotron-heading text-center">About</h1>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-responsive" id="aboutPhoto" src="http://gabrielacotosck.com/gabriela-cotosck.jpg">
+                    </div>
+                    <div class="col-md-8" id="aboutBody">
+                        <p>
+                            I am a UX Designer with a background in Front-End Development and Computer Science, which allows me to advocate for the users while also speaking the developers' language and meeting business goals.
+                        </p>
+                        <p>
+                            Through research and analysis, my goal is to understand how users interact with different systems, and from there, recognize how we can design to improve their experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="jumbotron" id="portfolio">
+            <div class="container text-center">
+                <h1 class="jumbotron-heading">Portfolio</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top img-responsive" src="http://gabrielacotosck.com/portfolio1.png">
+                            <div class="card-block">
+                                <p class="card-text">Project 1</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top img-responsive" src="http://gabrielacotosck.com/portfolio1.png">
+                            <div class="card-block">
+                                <p class="card-text">Project 2</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top img-responsive" src="http://gabrielacotosck.com/portfolio1.png">
+                            <div class="card-block">
+                                <p class="card-text">Project 3</p>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lead">
+                    <p>You can <a href="http://gabrielacotosck.com/Gabriela-Cotosck-UX-Portfolio.pdf" target="_blank">see my latest Case Studies (2017) and download my portfolio in PDF by clicking here</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="jumbotron" id="contact">
+            <div class="container">
+                <h1 class="jumbotron-heading text-center">Contact</h1>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5>Find me at:</h5>
+
+                        <p>
+                            <a class="btn btn-social btn-primary rounded-circle" href="http://twitter.com/gabrielacotosck" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social btn-primary rounded-circle" href="http://linkedin.com/in/gabrielacotosck" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social btn-success rounded-circle" href="https://www.freecodecamp.org/gabrielacotosck" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+                        </p>
+                        <br /><br />
+                        <h5>Send me an email:</h5> <p><a href="mailto:info@gabrielacotosck.com?Subject=Contact%20from%20website"><i class="fa fa-envelope-square"></i> info(at)gabrielacotosck.com</a></p>
+                        <p>Or use the form to send me a message.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="EmailAddress">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail" placeholder="Enter email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="EmailSubject">Subject</label>
+                                <input type="text" class="form-control" id="InputSubject" placeholder="Enter a subject for your message">
+                            </div>
+                            <div class="form-group">
+                                <label for="TextArea">Enter your message</label>
+                                <textarea class="form-control" id="messageBox" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="lead small text-center">Gabriela Cotosck © 2017. All Rights Reversed</footer>
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+</html>
